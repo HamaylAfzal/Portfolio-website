@@ -1,8 +1,8 @@
-import React from "react";
-import Pdf from "../component/HamaylAfzal.pdf";
-import Github from "../Pictures/github.png";
-import Linkdin from "../Pictures/linkdin.png";
-import Gmail from "../Pictures/gmail.png";
+import React from "react"
+import Pdf from '../components/HamaylAfzal.pdf'
+import Github from "../pictures/github.png";
+import Linkdin from "../pictures/linkdin.png";
+import Gmail from "../pictures/gmail.png";
 
 function NavBar() {
   return (

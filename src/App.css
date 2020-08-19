@@ -2,6 +2,7 @@
   font-size: 40px;
   font-weight: bolder;
   margin-left: 0ch;
+  position: absolute;
 }
 
 
@@ -43,4 +44,40 @@
 
 .spacer{
   flex: 1;
+}
+
+.picture{
+  height:80px;
+  width: 80;
+}
+
+
+.Resume {
+  font-size:30px;
+  color: white;
+  position: absolute;
+  list-style: none;
+
+}
+
+
+.Project-Word:hover,
+.Resume:hover {
+  color: black;
+  background-color :white;
+  margin-left:-20px;
+  padding-left:20px;
+  padding-right:20px;
+  padding-bottom: 10px;
+  -moz-box-shadow: 0 0 10px #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.Project-Word{
+  font-size: 45px;
+    color: white;
+    position: absolute;
+    list-style: none;
+    top: 30px;
 }
