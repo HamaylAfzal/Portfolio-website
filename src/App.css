@@ -1,4 +1,4 @@
-.Project-Word{
+.Word{
   font-size: 40px;
   font-weight: bolder;
   margin-left: 0ch;
@@ -61,7 +61,7 @@
 }
 
 
-.Project-Word:hover,
+.Word:hover,
 .Resume:hover {
   color: black;
   background-color :white;
@@ -74,10 +74,30 @@
   box-shadow: 0 0 10px #ccc;
 }
 
-.Project-Word{
+.Word{
   font-size: 45px;
     color: white;
     position: absolute;
     list-style: none;
     top: 30px;
+}
+
+
+.background{
+  text-align: center;
+  position: relative;
+  min-width: 100%;
+  min-height: auto;
+  size: cover;
+
+
+}
+
+.body {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 28px;
+  color:black;
 }
