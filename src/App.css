@@ -32,14 +32,15 @@
 
 .Nav-BarItems ul{
   list-style: none;
-  margin: 0;
   padding: 0;
   display: flex;
+  margin-left: 6rem;
 }
 
 .Nav-BarItems li {
-  padding: 0 0.5rem;
-  padding-left: 4em;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
 }
 
 .spacer{
@@ -100,4 +101,5 @@
   transform: translate(-50%, -50%);
   font-size: 28px;
   color:black;
+  font-family: S;
 }

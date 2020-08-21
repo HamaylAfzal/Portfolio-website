@@ -1,6 +1,5 @@
 import React from "react";
 import NavBar from "./NavBar";
-import wom from "../pictures/wom.jpg";
 import { Link } from "react-router-dom";
 
 function Home() {
@@ -8,10 +7,11 @@ function Home() {
     <div>
       <NavBar />
       <header className="Project-Word">Project</header>
-      <h1 className="intro"> G' Day!!</h1>
-      <img src={wom} className="background" alt="background" />
-      <h1 className="intro"> G' Day!!</h1>
+      
+      
+      
       <h2 className="body">
+      <h1>G' Day</h1>
         <p>I am Hamayl Afzal an undergradute student at DePauw University!!</p>
         <p>
           {" "}

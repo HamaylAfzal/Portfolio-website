@@ -4,7 +4,7 @@ import Github from "../pictures/github.png";
 import Linkdin from "../pictures/linkdin.png";
 import Gmail from "../pictures/gmail.png";
 
-function NavBar() {
+function NavBar(props) {
   return (
     <div>
       <header className="Nav-bar">
